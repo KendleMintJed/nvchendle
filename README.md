@@ -1,3 +1,7 @@
-# Example_config
+KendleMintJed NeoVim config
+Based off NvChad
 
-This can be used as an example custom config for NvChad. Do check the https://github.com/NvChad/nvcommunity
+## Additional plugins
+- Github copilot
+- Vimtex by lervag
+- vim-fugitive by tpope
