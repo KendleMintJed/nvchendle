@@ -6,6 +6,21 @@ return {
   	},
   },
   {
+  	"williamboman/mason.nvim",
+  	opts = {
+  		ensure_installed = {
+        "lua-language-server", "stylua", "rust-analyzer",
+  		},
+  	},
+  },
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      require("nvchad.configs.lspconfig").defaults()
+      require "configs.lspconfig"
+    end,
+  },
+  {
     "github/copilot.vim",
     lazy = false,
   },
