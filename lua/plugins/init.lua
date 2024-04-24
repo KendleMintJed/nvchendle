@@ -1,19 +1,25 @@
 return {
   {
-  	"nvim-treesitter/nvim-treesitter",
-  	opts = {
-      auto_install=true,
-  	},
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      auto_install = true,
+    },
   },
 
   {
-  	"williamboman/mason.nvim",
-  	opts = {
-  		ensure_installed = {
-        "lua-language-server", "stylua", "rust-analyzer",
-        "pyright", "mypy", "ruff", "black", "debugpy",
-  		},
-  	},
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "lua-language-server",
+        "stylua",
+        "rust-analyzer",
+        "pyright",
+        "mypy",
+        "ruff",
+        "black",
+        "debugpy",
+      },
+    },
   },
 
   {
@@ -53,7 +59,7 @@ return {
 
   {
     "mfussenegger/nvim-dap-python",
-    ft="python",
+    ft = "python",
     dependencies = {
       "mfussenegger/nvim-dap",
       "rcarriga/nvim-dap-ui",
@@ -64,4 +70,23 @@ return {
     end,
   },
 
+  {
+    "kdheepak/lazygit.nvim",
+    cmd = {
+      "LazyGit",
+      "LazyGitConfig",
+      "LazyGitCurrentFile",
+      "LazyGitFilter",
+      "LazyGitFilterCurrentFile",
+    },
+    -- optional for floating window border decoration
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    -- setting the keybinding for LazyGit with 'keys' is recommended in
+    -- order to load the plugin when the command is run for the first time
+    keys = {
+      { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+    },
+  },
 }
