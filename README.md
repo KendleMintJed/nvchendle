@@ -1,7 +1,16 @@
 KendleMintJed NeoVim config
 Based off NvChad
 
-## Additional plugins
+# Overview
+## Language support
+- Python
+- Rust
+    - Auto-update crates
+
+## IDE Features
 - Github copilot
-- Vimtex by lervag
-- vim-fugitive by tpope
+- Auto-completion
+- Auto-formatting
+- Linting
+- Snippets
+- Debugging
