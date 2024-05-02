@@ -142,4 +142,17 @@ return {
     "lervag/vimtex",
     lazy = false,
   },
+
+  -- Colorizer
+  {
+    "norcalli/nvim-colorizer.lua",
+    opts = {
+      user_default_options = {
+        RGB = true,
+        RRGGBB = true,
+        RRGGBBAA = true,
+        names = false,
+      },
+    },
+  },
 }
