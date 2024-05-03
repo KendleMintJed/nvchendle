@@ -1,4 +1,4 @@
--- Credits to original theme https=//monokai.pro/
+-- Credits to original theme https://github.com/ghgofort/vscode-neon-vommit-theme
 -- This is modified version of it
 
 local M = {}
@@ -8,12 +8,12 @@ M.base_30 = {
   darker_black = "#1D1D1D",
   black = "#222222",  --  nvim bg
   black2 = "#2F2F2F",
-  one_bg = "#363731", -- real bg of onedark
-  one_bg2 = "#3E3F39",
-  one_bg3 = "#464741",
-  grey = "#4D4E48",
-  grey_fg = "#555650",
-  grey_fg2 = "#5D5E58",
+  one_bg = "#363636", -- real bg of onedark
+  one_bg2 = "#3E3E3E",
+  one_bg3 = "#464646",
+  grey = "#4D4D4D",
+  grey_fg = "#555555",
+  grey_fg2 = "#5D5D5D",
   light_grey = "#787878",
   red = "#FF6F77",
   baby_pink = "#FF55DD",
@@ -55,7 +55,7 @@ M.base_16 = {
   base0F = "#FF6F77",
 }
 
-M.polish_hl = { --hello world
+M.polish_hl = {
   treesitter = {
     ["@constant"] = { fg = M.base_30.blue },
     ["@constant.builtin"] = { fg = M.base_30.blue },
@@ -71,10 +71,10 @@ M.polish_hl = { --hello world
 
     ["@comment"] = { fg = M.base_16.base04 },
 
-    ["@punctuation.bracket"] = { fg = M.base_30.white },
+    ["@punctuation.bracket"] = { fg = M.base_30.sun },
     ["@punctuation.delimiter"] = { fg = M.base_30.white },
 
-    ["@constructor"] = { fg = M.base_30.white },
+    ["@constructor"] = { fg = M.base_30.sun },
 
     ["@function"] = { fg = M.base_30.green },
     ["@function.builtin"] = { fg = M.base_30.green },
