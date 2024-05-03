@@ -109,7 +109,7 @@ return {
     ft = "rust",
     dependencies = "nvim-lspconfig",
     opts = function()
-      return require "configs.rust-tools"
+      return require "configs.rust-tool-config"
     end,
     config = function(_, opts)
       require("rust-tools").setup(opts)

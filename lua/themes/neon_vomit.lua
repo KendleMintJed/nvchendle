@@ -60,23 +60,51 @@ M.polish_hl = { --hello world
     ["@constant"] = { fg = M.base_30.blue },
     ["@constant.builtin"] = { fg = M.base_30.blue },
     ["@constant.macro"] = { fg = M.base_30.blue },
+
     ["@variable"] = { fg = M.base_30.cyan },
     ["@variable.member"] = { fg = M.base_16.base09 },
+
     ["@property"] = { fg = M.base_30.cyan },
+
     ["@string"] = { fg = M.base_30.purple },
+    ["@character"] = { fg = M.base_30.purple },
+
     ["@comment"] = { fg = M.base_16.base04 },
+
     ["@punctuation.bracket"] = { fg = M.base_30.white },
     ["@punctuation.delimiter"] = { fg = M.base_30.white },
+
     ["@constructor"] = { fg = M.base_30.white },
+
     ["@function"] = { fg = M.base_30.green },
     ["@function.builtin"] = { fg = M.base_30.green },
     ["@function.macro"] = { fg = M.base_30.green },
     ["@function.call"] = { fg = M.base_30.green },
+    ["@function.method"] = { fg = M.base_30.green },
+    ["@function.method.call"] = { fg = M.base_30.green },
+
     ["@operator"] = { fg = M.base_30.pink },
+
     ["@attribure"] = { fg = M.base_30.green },
+
     ["@number"] = { fg = M.base_30.teal },
+    ["@number.float"] = { fg = M.base_30.teal },
+
     ["@scope"] = { fg = M.base_30.yellow },
+
     ["@markup.heading"] = { fg = M.base_30.teal },
+
+    ["@type.builtin"] = { fg = M.base_30.red },
+
+    ["@keyword.repeat"] = { fg = M.base_30.pink },
+    ["@keyword.operator"] = { fg = M.base_30.yellow },
+
+    ["@module"] = { fg = M.base_30.cyan },
+    ["@module.builtin"] = { fg = M.base_30.cyan },
+  },
+  syntax = {
+    Type = { fg = M.base_30.cyan },
+    Include = { fg = M.base_30.pink },
   },
 }
 
