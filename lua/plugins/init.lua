@@ -145,8 +145,9 @@ return {
 
   -- Colorizer
   {
-    "norcalli/nvim-colorizer.lua",
+    "NvChad/nvim-colorizer.lua",
     opts = {
+      filetypes = { "*" },
       user_default_options = {
         RGB = true,
         RRGGBB = true,
