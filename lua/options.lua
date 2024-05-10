@@ -20,6 +20,6 @@ if vim.fn.has "wsl" == 1 then
       ["+"] = "win32yank.exe -o --lf",
       ["*"] = "win32yank.exe -o --lf",
     },
-    cache_enables = 0,
+    cache_enabled = true,
   }
 end
